@@ -45,7 +45,7 @@ body{
 
 .hero h1{
     font-family:'Great Vibes',cursive;
-    font-size:3.5rem;
+    font-size:3rem;
     margin-top:15px;
     color:#fff;
     text-shadow:0 0 20px #ff4d88;
@@ -90,7 +90,7 @@ body{
 
 .story h2{
     font-family:'Great Vibes',cursive;
-    font-size:3rem;
+    font-size:2.5rem;
     color:#ffbdd4;
     margin-bottom:40px;
 }
@@ -341,7 +341,7 @@ body{
 
 .bottom-emojis{
     margin-top:35px;
-    font-size:5rem;
+    font-size:3rem;
     animation:floatEmoji 3s ease-in-out infinite;
 }
 

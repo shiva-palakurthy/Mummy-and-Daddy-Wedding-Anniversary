@@ -1,9 +1,9 @@
-// MUSIC
-
 const musicBtn = document.getElementById('musicBtn');
 const bgMusic = document.getElementById('bgMusic');
 
 let isPlaying = false;
+
+// PLAY MUSIC BUTTON
 
 musicBtn.addEventListener('click', () => {
 
@@ -20,6 +20,20 @@ musicBtn.addEventListener('click', () => {
     }
 
 });
+
+// AUTO PLAY AFTER FIRST TOUCH
+
+document.body.addEventListener('click', () => {
+
+    if(!isPlaying){
+
+        bgMusic.play();
+
+        isPlaying = true;
+
+    }
+
+}, { once:true });
 
 
 // CHANGING LOVE QUOTES
